@@ -1,0 +1,60 @@
+.info {
+    position: relative;
+    padding: 140px 0 120px 0;
+    width: 1040px;
+    margin: 0 auto;
+    &__wrapper {
+        display: flex;
+    }
+    &__img {
+        margin-right: 70px;
+    }
+    &__skills {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__skill {
+        display: flex;
+        align-items: flex-start;
+        margin-right: 50px;
+        margin-bottom: 40px;
+    }
+    &__descr {
+        width: 200px;
+        font-size: 12px;
+        padding-top: 6px;
+    }
+    &__icon {
+        padding-top: 15px;
+        padding-left: 16px;
+        margin-right: 20px;
+       
+    }
+    &__divider  {
+        width: 60px;
+        height: 3px;
+        background-color: $main-color;
+        margin-bottom: 20px;
+    }
+    
+    &__text {
+        border-top: 6px;
+        margin-bottom: 40px;
+    }
+    &__subtitle {
+        position: relative;
+        padding-left: 14px;
+        top: 6px;
+        margin-bottom: 6px;
+        @include before_circle;
+    }
+    &__circle {
+        position: relative;
+        top: 6px;
+        @include before_circle;
+    }
+    &__title {
+        margin-bottom: 4px;
+    }
+
+}
